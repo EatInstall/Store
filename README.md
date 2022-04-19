@@ -1,4 +1,4 @@
-# The EͤAͣᴛⷮ $tore
+# The ɐǝt $tore
 The Eat Store provides a simple way to manage apps with the Eat package manager. It's
 for those who need Eat, but do not need to use a terminal.
 
