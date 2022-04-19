@@ -41,5 +41,5 @@ sudo install ./dist/estore /usr/bin/estore
 ```
 Be sure to create a shortcut to `/usr/bin/estore` on your desktop.
 
-Eat Store does not work in text-only Linux distributions. because it is written using Tkinter. 
+Eat Store does not work in text-only Linux distributions (e.g. Ubuntu Server), because it is written using Tkinter. 
 If you need it and are using a text-only distro, you can use the text-only Eat.
