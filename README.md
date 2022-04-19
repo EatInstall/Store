@@ -31,6 +31,10 @@ To install the Eat Store, go to your terminal and run:
 # \__________________________________________________________________/
 # Ensure you have Python 3 by running: python -V
 
+# Clone and change working directory.
+git clone git://github.com/EatInstall/Store.git
+cd Store
+
 # Get PyInstaller.
 python -m pip install pyinstaller
 
@@ -47,6 +51,8 @@ If you need it and are using a text-only distro, you can use the text-only Eat.
 ### Debian PacKaGe (`dpkg`) tool
 If you are a Ubuntu user, you can build and install the Debian package `eat-store.deb`:
 ```shell
+git clone git://github.com/EatInstall/Store.git
+cd Store
 dpkg-buildpackage
 sudo dpkg -i eat-store.deb
 ```
