@@ -57,4 +57,5 @@ git clone https://github.com/EatInstall/Store.git
 cd Store
 dpkg-buildpackage
 sudo dpkg -i eat-store.deb
+# idealy; you can also choose apt (sudo apt install --yes ./eat-store.deb)
 ```
