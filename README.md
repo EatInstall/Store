@@ -51,7 +51,7 @@ If you need it and are using a text-only distro, you can use the text-only Eat.
 
 Using the `git` protocol will not work, you'll get an error.
 ### Debian PacKaGe (`dpkg`) tool
-If you are a Ubuntu user, you can build and install the Debian package `eat-store.deb`:
+If you are a Ubuntu or Debian user, you can build and install the Debian package `eat-store.deb`:
 ```shell
 git clone https://github.com/EatInstall/Store.git
 cd Store
