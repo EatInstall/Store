@@ -20,7 +20,7 @@ To install the Eat Store, go to your terminal and run:
 # /******************************************************************\
 # | Command                             | Distribution               |
 # | ------------------------------------+--------------------------- |
-# | sudo apt install python3            | Ubuntu                     |
+# | sudo apt install python3            | Ubuntu/Debian              |
 # | sudo apt install python-is-python3  |                            |
 # | ------------------------------------+--------------------------- |
 # | sudo pacman -S python               | Arch                       |
@@ -29,6 +29,8 @@ To install the Eat Store, go to your terminal and run:
 # | ------------------------------------+--------------------------- |
 # | eatinst python                      | Any distro (user only)     |
 # \__________________________________________________________________/
+# (note: For Ubuntu/Debian, you can omit the "sudo" if aptd is running)
+#
 # Ensure you have Python 3 by running: python -V
 
 # Clone and change working directory.
